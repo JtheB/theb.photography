@@ -1,4 +1,3 @@
-console.log(data.length);
 let blogContent = document.getElementById("main");
 let blogData = "";
 for (let c = data.length; c > 0; c--) {
@@ -10,7 +9,7 @@ for (let c = data.length; c > 0; c--) {
 }
 blogContent.innerHTML = blogData.toString();
 
-/*
+/* Reference HTML Snippet
 <article class="thumb">
     <a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt="" /></a>
     <h2>Magna feugiat lorem</h2>
